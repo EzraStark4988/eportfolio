@@ -8,5 +8,7 @@ def hellotime (request):
 
 def screenprint(request):
     return render(request, "core/screenprint.html")
-# Create your views here.
+
+def mbb(request):
+    return render(request, "core/mbb.html")
 # comments comments comments

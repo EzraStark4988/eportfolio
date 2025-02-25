@@ -4,7 +4,6 @@ from . import views
 
 urlpatterns = [
     path("", views.hellotime, name="hellotime"),
-    path("screenprint", views. screenrpint, name="screenrpint"),
-
-
+    path("screenprint", views. screenprint, name="screenprint"),
+    path("mbb", views. mbb, name="mbb"),
 ]
